@@ -148,7 +148,7 @@ nav button{
 }
 
 
-
+ 
  
 
 .nav__profile:hover > ul{
@@ -191,17 +191,28 @@ nav button{
     display: flex;
     gap: 1rem;
 }
+
 .post__thumbnail{
     height: 20rem;
     overflow: hidden;
-    width: auto;
+    width: 30rem;
+    margin-bottom: 1.6rem;
  
  
 }
 
+ 
+
 .post__thumbnail img{
 width: 100%;
 
+}
+
+
+
+.post:hover .post__thumbnail img{
+    filter: saturate(0);
+    transition: filter 500ms ease;
 }
 
  
@@ -211,23 +222,10 @@ width: 100%;
     background-color: bisque;
 }
 
-
-.featured{
-    margin-top: 4rem ;
  
-     padding: 3rem 0rem;
-     padding-bottom: 0%;
-    
-     
-}
 
 
-.featured__container{
-    display: grid;
-    grid-template-columns: 0.5fr 0.5fr;
-    gap: 1rem;
-    padding: 0 12rem;
-}
+ 
 
 .post__author{
     margin-top: 2rem;
@@ -250,4 +248,42 @@ width: 100%;
 
  .post__author small{
     color: white;
+ }
+
+
+ 
+.container{
+    justify-content: center;
+ 
+}
+
+
+ /* featured  part*/
+
+
+ .featured{
+    margin-top: 8rem;
+ }
+
+
+ .featured__container{
+    display: grid;
+    grid-template-columns: 0.2fr 0.5fr;
+    gap: 1rem;
+ }
+
+ .featured .post__thumbnail{
+    height: fit-content;
+ }
+
+
+
+ /* posts section */
+
+
+ .posts__container{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 2rem;
+    padding: 8rem;
  }
