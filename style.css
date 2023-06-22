@@ -287,3 +287,28 @@ width: 100%;
     gap: 2rem;
     padding: 8rem;
  }
+
+
+ /* category buttons section */
+
+
+ .category__buttons{
+    padding: 4rem;
+    border-top: 0.5px solid grey;
+    justify-content: center;
+    
+ }
+
+
+
+
+ .category__buttons-container{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:3rem;
+ 
+    margin-left: auto;
+    margin-right: auto;
+ }
+ 
