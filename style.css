@@ -116,6 +116,7 @@ nav button{
     height: 2.5rem;
     border-radius: 50%;
     cursor: pointer;
+
 }
 .nav__logo{
     width: 3rem;
@@ -197,7 +198,7 @@ nav button{
     overflow: hidden;
     width: 30rem;
     margin-bottom: 1.6rem;
- 
+  
  
 }
 
@@ -219,12 +220,11 @@ width: 100%;
 .post__author-avatar img{
     width: 2.5rem;
     border-radius: 50%;
+    border: 2px red solid;
     background-color: bisque;
 }
 
  
-
-
  
 
 .post__author{
@@ -247,7 +247,7 @@ width: 100%;
  }
 
  .post__author small{
-    color: white;
+    color:goldenrod;
  }
 
 
@@ -311,4 +311,79 @@ width: 100%;
     margin-left: auto;
     margin-right: auto;
  }
+
+
+
+ /* footer section */
+ footer{
+    padding-top: 5rem;
+ }
+
  
+ .footer__socials{
+    margin-inline: auto;
+   margin-bottom: 5rem;
+    width: fit-content;
+    gap: 1.2rem;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .footer__socials a{
+    margin: 1rem;
+    width: 2.3rem;
+    height: 2.3rem;
+    font-size: 2rem;
+    color: rgb(128, 128, 128);
+
+ }
+
+ .footer__socials a:hover{
+    margin: 1rem;
+    width: 2.3rem;
+    height: 2.3rem;
+    color: white;
+
+    font-size: 2rem;
+ }
+
+
+
+ .footer__container{
+    padding: 5rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 7rem;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+   
+     
+ }
+
+
+ .footer__container article h4{
+    color: white;
+    font-weight: 400;
+    margin-bottom: 0.6rem;
+ }
+
+
+
+ .footer__container article a{
+    color: rgb(99, 99, 99);
+    font-weight: 100;
+ }
+
+ .footer__container article a:hover{
+ letter-spacing: 0.1rem;
+ color: #ffffff;
+ }
+
+
+ .footer__copyrights{
+    text-align: center;
+    color: white;
+    padding: 4rem 0;
+    border-top: 0.5px solid rgb(99, 99, 99);
+ }
