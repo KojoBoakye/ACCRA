@@ -116,7 +116,7 @@ nav button{
     height: 2.5rem;
     border-radius: 50%;
     cursor: pointer;
-
+ 
 }
 .nav__logo{
     width: 3rem;
@@ -387,3 +387,59 @@ width: 100%;
     padding: 4rem 0;
     border-top: 0.5px solid rgb(99, 99, 99);
  }
+
+
+
+
+ /* search button */
+
+ .search__bar{
+   margin-top: 7rem;
+ 
+   width: fit-content;
+   margin-left: auto;
+   margin-right: auto;
+
+ }
+
+ .container__search-bar{
+   position: relative;
+   display: flex;
+   width: 30rem;
+   overflow: hidden;
+   gap: 1rem;
+  align-items: center;
+ }
+
+
+  .container__search-bar input{
+   background-color: none;
+   width: 20rem;
+   padding: 0.5rem;
+   background: transparent;
+   border-radius: 10px;
+   border: #c6c6c6 1px solid;
+   font-family: poppins;
+   color: white;
+ }
+
+
+  .container__search-bar button{
+   background: none;
+   width: 2rem;
+  }
+
+   .container__search-bar button i{
+      color: rgb(128, 128, 128);
+      font-size: 1.5rem;
+   }
+
+   .container__search-bar button:hover > i{
+      color: rgb(255, 255, 255);
+      font-size: 1.7rem;
+   }
+
+     .container__search-bar input:hover{
+     transition: 1s;
+      width: 21rem;
+     }
