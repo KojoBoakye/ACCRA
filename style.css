@@ -496,7 +496,7 @@ font-size: 3rem;
   .form__section{
    height: 70vh;
    color: white;
- 
+    margin-top: 0;
    padding: 5rem;
    width: 50rem;
    margin-left: auto;
@@ -515,7 +515,7 @@ margin: 0;
 
 
 
-  input , textarea{
+  input , textarea, select{
    padding: 0.8rem 1.4rem;
    background: none;
    border: 2px solid rgb(99, 99, 99);
@@ -527,7 +527,7 @@ margin: 0;
    background-color: white;
    color: black;
    padding: 0.8rem 1.4rem;
-   width: 7rem;
+   width:fit-content;
    border-radius: 10px;
 
   }
@@ -583,6 +583,17 @@ margin: 0;
    margin-left: auto;
    margin-right: auto;
    margin-top: 3rem;
+ }
+ 
+ 
+ .form__control__inline{
+   flex-direction: row;
+   gap: 6rem;
+ 
+ }
 
-
+ select{
+   background: rgb(94, 94, 94);
+   color: rgb(255, 255, 255);
+   border: none;
  }
