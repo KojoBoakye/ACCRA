@@ -32,15 +32,13 @@
  }
 
 
- h1,h2,h3,h4,h5{
-    color: black;
-    line-height: 1.3;
- }
+ 
 
 
  h1{
     font-size: 3rem;
     margin: 1rem 0;
+    color: #ffffff;
  }
 
  h2{
@@ -191,6 +189,7 @@ nav button{
 .post__author{
     display: flex;
     gap: 1rem;
+   margin-top: 2rem;
 }
 
 .post__thumbnail{
@@ -227,9 +226,7 @@ width: 100%;
  
  
 
-.post__author{
-    margin-top: 2rem;
-}
+ 
 
 .post__title{
     color: white;
@@ -241,12 +238,12 @@ width: 100%;
 }
 
 
-.post__author h5{
+.post__author-info h5{
     color: white;
     font-weight: lighter;
  }
 
- .post__author small{
+ .post__author-info small{
     color:goldenrod;
  }
 
@@ -443,3 +440,43 @@ width: 100%;
      transition: 1s;
       width: 21rem;
      }
+
+
+     .singlepost{
+  
+     
+     }
+
+
+     .singlepost__container{
+   
+      width: 60rem;
+      margin-left: auto;
+      margin-right: auto;
+     }
+
+     .singlepost__container h2{
+      color: white;
+      font-weight: 500;
+     }
+
+     .singlepost__container .post__thumbnail{
+      width: 60rem;
+      height: 40rem;
+     }
+
+
+.category__title{
+      color: white;
+      border-bottom: 0.5px solid rgb(139, 139, 139);
+     padding:3rem;
+      text-align: center;
+
+     }
+
+
+
+.category__title h2{
+font-size: 3rem;
+
+  }
