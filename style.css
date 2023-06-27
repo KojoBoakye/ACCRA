@@ -392,16 +392,19 @@ width: 100%;
 
  .search__bar{
    margin-top: 7rem;
- 
+   display: flex;
+   flex-direction: row;
    width: fit-content;
    margin-left: auto;
    margin-right: auto;
-
+ 
  }
 
  .container__search-bar{
    position: relative;
    display: flex;
+   flex-direction: row;
+ 
    width: 30rem;
    overflow: hidden;
    gap: 1rem;
@@ -480,3 +483,106 @@ width: 100%;
 font-size: 3rem;
 
   }
+
+  .empty__page{
+  display: grid;
+   text-align: center;
+   height: 70vh;
+  }
+
+
+
+
+  .form__section{
+   height: 70vh;
+   color: white;
+ 
+   padding: 5rem;
+   width: 50rem;
+   margin-left: auto;
+   margin-right: auto;
+  
+  }
+  .form__section h2{
+font-weight: 500;
+margin: 0;
+  }
+
+  .form__control{
+   display: flex;
+   flex-direction: column;
+  }
+
+
+
+  input , textarea{
+   padding: 0.8rem 1.4rem;
+   background: none;
+   border: 2px solid rgb(99, 99, 99);
+   border-radius: 10px;
+   color: white;
+  }
+
+  form button{
+   background-color: white;
+   color: black;
+   padding: 0.8rem 1.4rem;
+   width: 7rem;
+   border-radius: 10px;
+
+  }
+
+
+
+
+ 
+
+
+  .alert__message{
+   color: white;
+   
+  }
+
+  .alert__message.error{
+   color: red;
+ 
+  }
+
+  .alert__message.success{
+   color: green;
+ 
+  }
+ form{
+   display: flex;
+   flex-direction: column;
+   gap:1rem;
+ }
+
+ .form__section small{
+   margin-top: 1rem;
+   display: block;
+   font-weight: 200;
+ }
+
+
+ .form__section small a{
+  color: white;
+  font-weight:400;
+ }
+
+ 
+ .logo{
+   width: 100%;
+   display: block;
+   justify-content: center;
+ }
+
+ .logo img{
+   width: 7rem;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 3rem;
+
+
+ }
